@@ -1,6 +1,6 @@
-library("quantmod")
-library("dplyr")
-library("readr")
+library(quantmod)
+library(dplyr)
+library(readr)
 
 SPY.divs <- getDividends("SPY", auto.assign=FALSE)
 SPY.prices <- getSymbols("SPY", auto.assign=FALSE)
