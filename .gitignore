@@ -130,3 +130,6 @@ dmypy.json
 
 # Internal data
 data/spy.csv
+
+# Outputs
+*.wav
