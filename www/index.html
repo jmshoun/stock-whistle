@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+    <title>Stock Whistle</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#reports">Reports</a></li>
+                <li class="nav-item"><a class="nav-link" href="#details">Details</a></li>
+                <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="py-3 text-center bg-secondary text-white">
+        <br />
+        <br />
+        <h1 class="display-3">Stock Market Whistle</h1>
+        <p class="lead">Everything you need to know about the day's market activity in five seconds or less.</p>
+    </div>
+    <br id="reports" />
+    <hr />
+    <div class="container">
+        <h2>Current Market Reports</h2>
+        <br />
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="card">
+                    <div class="card-body bg-light">
+                        <h5 class="card-title">Last 5 Years</h5>
+                        <audio controls style="width: 90%">
+                            <source src="5-year.mp3">
+                            Your browser does not support this audio element.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="card">
+                    <div class="card-body bg-light">
+                        <h5 class="card-title">Last Year</h5>
+                        <audio controls style="width: 90%">
+                            <source src="1-year.mp3">
+                            Your browser does not support this audio element.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div class="card">
+                    <div class="card-body bg-light">
+                        <h5 class="card-title">Last Month</h5>
+                        <audio controls style="width: 90%">
+                            <source src="month.mp3">
+                            Your browser does not support this audio element.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br id="details" />
+    <hr />
+    <div class="container">
+        <h2>Details</h2>
+        <p>Each market report is a slide whistle sound that illustrates the movement of the stock market over the stated time period. As the whistle goes up, the market goes up. As the whistle goes down, the market goes down.</p>
+        <p>If you're at least 10 years away from retirement, I recommend you listen to the 5-year report.
+    </div>
+    <br id="faq" />
+    <hr />
+    <div class="container">
+        <h2>FAQ</h2>
+        <p class="font-italic small">Disclaimer: none of these questions have been asked frequently (or ever). This format is just a rhetorical device.</p>
+        <div class="row justify-content-center">
+            <div class="card" style="width: 90%">
+                <div class="card-body">
+                    <h6 class="card-title font-weight-bold">Where's the daily report?</h6>
+                        <p class="card-text">It doesn't exist, and I'll never make one. Unless you're actively trading individual stocks (which you probably shouldn't), there's no reason to worry at all about the daily gyrations of the market.</p>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row justify-content-center">
+            <div class="card" style="width: 90%">
+                <div class="card-body">
+                    <h6 class="card-title font-weight-bold">Today's 5-year report sounds pretty much like yesterday's 5-year report.</h6>
+                    <p class="card-text">Exactly.</p>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row justify-content-center">
+            <div class="card" style="width: 90%">
+                <div class="card-body">
+                    <h6 class="card-title font-weight-bold">How do you measure the stock market? The Dow Jones?</h6>
+                    <p class="card-text">No, I don't use the Dow Jones and neither should you. There are three main reasons why. First, the Dow Jones is based on the stock prices of only 30 large companies that represent less than 20% of the total US stock market by market capitalization. Swings in the Dow may not be representative of the market as a whole.</p>
+                    <p class="card-text">Second, the Dow Jones is not properly weighted. In mid-March of 2020, Pfizer is trading at around 40 and 3M is trading at around 160. If Pfizer's stock price goes up by 1, it has exactly the same effect on the Dow as if 3M's price goes up by 1, even though it represents a gain that's 4 times bigger in relatively terms. What's more, a company's absolute stock price is somewhat arbitrary -- for example, Pfizer is twice as big as 3M, despite a stock price that's 4 times lower!</p>
+                    <p class="card-text">Finally, the Dow Jones is not adjusted for dividends. Many stocks pay periodic cash dividends to shareholders. This dividend can then be reinvested into the stock market, compounding investment returns. The Dow does completely ignores dividends, and thereby understates market returns.</p>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row justify-content-center">
+            <div class="card" style="width: 90%">
+                <div class="card-body">
+                    <h6 class="card-title font-weight-bold">So how <i>do</i> you measure the market?</h6>
+                    <p class="card-text">I use an index fund that tracks the S&P 500 and assume that dividends are immediately reinvested. This solves all three of the problems with the Dow. The S&P 500 captures a much larger portion of the stock market, its calculation is weighted by the size of each company, and I assume that dividends are reinvested.</p>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row justify-content-center">
+            <div class="card" style="width: 90%">
+                <div class="card-body">
+                    <h6 class="card-title font-weight-bold">What's the current value of this index? Is it 3000? 5000? 10000?</h6>
+                    <p class="card-text">It doesn't matter. The slide whistle tells you everything you need to know about the market. If you've read this far into the FAQ, you probably think too much about the stock market. If you're relatively young, I recommend the Ronco Showtime Rotisserie method of investing: <i>Set it and forget it!</i> Set up a recurring monthly transfer into a low-fee index fund, adjust the transfer amount every time your income changes significantly, and forget about it for the next few decades.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br id="about" />
+    <hr />
+    <div class="container">
+        <h2>About</h2>
+        <p>I've contracted with one of the world's foremost slide whistle virtousi (who prefers to remain anonymous) to perform each day's market reports. Shortly after the market closes, I send him a carefully engraved copy of the musical score for each report. He then practices for several hours while watching CNBC on mute until he can capture every twitch of Jim Cramer's eyebrows in his performance. After recording, mixing, and mastering, the recording is pressed onto a vinyl LP, which is then played on a turntable and digitized at 512-bit / 768kHz for optimal audio fidelity. The digital recording is then uploaded to the server by artisan digitsmiths who transfer the individual 1s and 0s by flipping switches on the front panel of a vintage PDP-11.</p>
+        <p>On the rare occasions that the above procedure doesn't work flawlessly, the market reports are automatically synthesized and uploaded by a computer program shortly after the markets close. The source code is <a href="https://github.com/jmshoun/stock-whistle">here</a>.
+    </div>
+</body>
